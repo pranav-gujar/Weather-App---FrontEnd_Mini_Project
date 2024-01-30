@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    background-color: #1f1a1a;
+    background-image: url(background.avif);
+    background-size: cover;
+}
+.float {
+   color: black;
+   text-decoration: underline solid;
+   font-size: 40px;
+   font-weight: 900;
+   background-color: #5b548a;
+   color: yellow;
+}
+#heading{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(19, 48, 175);
+}
+.card {
+    height: auto;
+    width: 90%;
+    max-width: 470px;
+    color: black;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 20px;
+    padding: 40px 35px;
+    margin: 100px auto 700px 200px;
+    text-align: center;
+}
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input {
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    margin-right: 16px;
+    font-size: 18px;
+    flex: 1;
+    transition-duration: 1s;
+}
+.search button {
+    outline: 0;
+    border: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+.search button img {
+    width: 45px;
+}
+.weather-icon {
+    height: 170px;
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img {
+    width: 30px;
+    margin-right: 10px;
+}
+.humidity , .wind {
+    font-size: 30px;
+    margin-top: -6px;
+}
+.error {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: red;
+    display: none;
+}
+.weather{
+    display: none;
+}
