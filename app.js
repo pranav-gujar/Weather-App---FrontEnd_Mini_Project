@@ -31,7 +31,7 @@ async function checkWeather (city) {
         } else if(data.weather[0].main == "Mist") {
             weatherIcon.src="mist.png";
         } else if(data.weather[0].main == "Smoke") {
-            weatherIcon.src="smoke.png";
+            weatherIcon.src="smoke.png" ;
         } 
     
         document.querySelector(".weather").style.display="block";
